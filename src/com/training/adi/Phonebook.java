@@ -13,7 +13,7 @@ public class Phonebook {
 	public static void main(String[] args) {
 		
 		
-		//dummy();
+		dummy();
 		while(true) {
 			
 			System.out.println("-------------------------");
@@ -47,9 +47,11 @@ public class Phonebook {
 			break;
 			}
 			
+			System.out.println("-----CONTACTS-----");
 			for(Contact c : phoneBook) {
 				System.out.println(c.toString());
 			}
+			System.out.println("-----CONTACTS-----");
 		}
 	}
 	
